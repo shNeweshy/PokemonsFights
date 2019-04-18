@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> sign up </title>
+<link rel="stylesheet" type="text/css" href="signUp.css">
+</head>
+
+<body>
+
+
+<center>
+<form action="../html/menu.html">
+    <h2 id="tittle">Hello Hero ... sign up to enjoy</h2>
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input class="shape"type="text" placeholder="Enter Username" name="uname" pattern=".{6,}" title="Six or more characters" required>
+
+    <label for="email"><b>Your email</b></label>
+    <input class="shape"type="text" placeholder="Enter your email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Not avalid Email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input id="password" class="shape" type="password" placeholder="Enter Password" name="psw" pattern=".{8,}" title="Eight or more characters" required>
+
+    <label for="psw"><b>Confirm Password</b></label>
+    <input id="confirm_password"class="shape" type="password" placeholder="Confirm Password" name="psw" required></div>
+        
+    <button id="submit" onclick="validatePassword()"  value="Click" type="onclick" >Sign up</button></br><br/>
+
+
+
+    <!--<label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>-->
+
+  
+</form>
+</center>
+</div>
+</body>
+<script src="signUp.js"></script>
+<embed id=sound src="/sounds/extra.mp3" loop="true" hidden="true" autostart="true">
+</html>

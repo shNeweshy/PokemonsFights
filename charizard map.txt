@@ -1,0 +1,22 @@
+2- : background-position: -851px -166px; 
+width: 125px;
+height: 67px;
+
+
+3- : background-position: -719px -167px; 
+width: 133px;
+height: 65px;
+
+
+4-:background-position: -593px -172px; 
+width: 128px;
+height: 57px;
+
+5-:background-position: -463px -170px; 
+width: 128px;
+height: 61px;
+
+
+X = 464 Y = 168        464*168
+
+width=512  h=65
